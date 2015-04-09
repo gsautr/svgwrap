@@ -16,9 +16,9 @@ $ bower install svgwrap
 
 ```
 
-Then this:
+This:
 
-```
+```html
 	<html>
 		<svg id="tennisAnimation">
 			<circle id="ball"></circle>
@@ -27,10 +27,10 @@ Then this:
 	</html>
 ```
 
-Becomes something like this:
+Through this:
 
 
-```
+```javascript
 	SvgWrap('#tennisAnimation', {
 		responsive: true // default
 		width: '100%' // default 
@@ -38,7 +38,9 @@ Becomes something like this:
 	});
 ```
 
-```
+Becomes this:
+
+```html
 	<html>
 		<div id="tennisAnimation">
 			<div id="ball">
@@ -55,6 +57,7 @@ Becomes something like this:
 	</html>
 ```
 
+:sparkles: :cool: :sparkles:
 
 # License #
 
