@@ -1,0 +1,7 @@
+{
+  "name": "svgwrap",
+  "version": "1.0.0",
+  "main": "svgwrap.js",
+  "keywords": ["util", "svg", "animation", "css"],
+  "ignore" : ["docs", "test", "*.yml", "CNAME", "index.html", "favicon.ico", "CONTRIBUTING.md", ".*", "component.json", "package.json", "karma.*"]
+}
