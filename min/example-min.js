@@ -1,0 +1,1 @@
+var svgwrap=new SvgWrap("svg",{width:"100%",height:!1,responsive:!0,levels:0});
